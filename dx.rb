@@ -1,8 +1,7 @@
 #-*- coding: utf-8 -*-
 
-def role(dice, crit)
+def role(dice, crit, type=10)
     results = []
-    type = 10
 
     return results if crit < 2
 
